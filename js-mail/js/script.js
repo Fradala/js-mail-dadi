@@ -2,9 +2,11 @@ const array = ['gino.22@gmail.com', 'mama.2@gmail.com', 'marta.2@gmail.com', 'ma
 
 const userEmail = document.getElementById('email').value;
 
-if(userEmail != array){
-    console.log('non ce')
-}else if(userEmail === array){
+const elemento = array;
+
+for (let i = 0; i = array.length; i ++){
     
-    console.log('ce')
+    console.log('elemnto', i)
 }
+
+
