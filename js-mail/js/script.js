@@ -14,26 +14,25 @@ buttonElement.addEventListener('click' , function(){
         const elemento = listaEmail[i];
         console.log(elemento, i)
 
-    if(elemento != userEmail){
-        console.log('non ce')
-        rispostaNo = elemento != userEmail
-        
+        if(elemento == userEmail){
+            console.log('non ce')
+            rispostaSi = elemento == userEmail
+            
+            
+
+        }else{
+
+        }
+            
         
 
-    }else if(elemento == userEmail){
-        console.log('ce')
-        rispostaSi = elemento == userEmail
-        
     }
 
-    }
-
-    if(rispostaNo){
-        document.getElementById ('verifica').innerHTML = 'non ce'
-
-    } else if(rispostaSi){
+    if(rispostaSi){
         document.getElementById ('verifica').innerHTML = 'perfetto la tua email esiste'
-    }
+    
+
+    } 
 
 });
 
