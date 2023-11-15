@@ -10,13 +10,19 @@ for (let i = 0 ; i < listaEmail.length ; i ++){
 
    if(elemento != userEmail){
     console.log('non ce')
-    document.getElementById ('verifica').innerHTML = ''
+    let rispostaNo = elemento != userEmail
+    
+    
 
    }else if(elemento == userEmail){
     console.log('ce')
-    document.getElementById ('verifica').innerHTML = 'perfetto la tua email esiste'
+    let rispostaSi = elemento == userEmail
+    
    }
 
 }
+
+rispostaNo = document.getElementById ('verifica').innerHTML = 'non ce'
+rispostaSi = document.getElementById ('verifica').innerHTML = 'perfetto la tua email esiste'
 
 
