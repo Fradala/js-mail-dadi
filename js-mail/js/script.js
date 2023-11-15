@@ -2,10 +2,10 @@ const array = ['gino.22@gmail.com', 'mama.2@gmail.com', 'marta.2@gmail.com', 'ma
 
 const userEmail = document.getElementById('email').value;
 
-const elemento = array;
 
-for (let i = 0; i = array.length; i ++){
-    
+
+for (let i = 0; i <= array.length; i ++){
+    const elemento = array [i];
     console.log('elemnto', i)
 }
 
