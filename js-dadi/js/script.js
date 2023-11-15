@@ -1,10 +1,10 @@
 
 /*DADI*/
 
-const numeroBot = Math.floor(Math.random()*5) + 1
+const numeroBot = Math.floor(Math.random()*6) + 1
 console.log(numeroBot)
 
-const numeroUser = Math.floor(Math.random()*5) + 1
+const numeroUser = Math.floor(Math.random()*6) + 1
 console.log(numeroUser)
 
 if( numeroBot > numeroUser){
