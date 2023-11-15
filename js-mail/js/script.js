@@ -28,8 +28,12 @@ buttonElement.addEventListener('click' , function(){
 
     }
 
-   rispostaNo = document.getElementById ('verifica').innerHTML = 'non ce'
-   rispostaSi = document.getElementById ('verifica').innerHTML = 'ce'
+    if(rispostaNo){
+        document.getElementById ('verifica').innerHTML = 'non ce'
+
+    } else if(rispostaSi){
+        document.getElementById ('verifica').innerHTML = 'perfetto la tua email esiste'
+    }
 
 });
 
