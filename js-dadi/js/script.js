@@ -1,3 +1,6 @@
+
+/*DADI*/
+
 const numeroBot = Math.floor(Math.random()*5) + 1
 console.log(numeroBot)
 
@@ -11,3 +14,4 @@ if( numeroBot > numeroUser){
 }else if( numeroUser == numeroBot){
     console.log('pareggio')
 }
+
