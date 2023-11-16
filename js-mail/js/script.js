@@ -7,16 +7,16 @@ buttonElement.addEventListener('click' , function(){
 
     const userEmail = document.getElementById('email').value;
 
-    let rispostaNo
-    let rispostaSi
+   
+    let rispostaSi = false
 
     for (let i = 0 ; i < listaEmail.length ; i ++){
         const elemento = listaEmail[i];
         console.log(elemento, i)
 
-        if(elemento == userEmail){
-            console.log('non ce')
-            rispostaSi = elemento == userEmail
+        if(userEmail == listaEmail[i]){
+            
+            rispostaSi = true
             
             
 
