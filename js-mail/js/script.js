@@ -32,7 +32,9 @@ buttonElement.addEventListener('click' , function(){
         document.getElementById ('verifica').innerHTML = 'perfetto la tua email esiste'
     
 
-    } 
+    } else {
+        document.getElementById ('verifica').innerHTML = 'la tua email non  esiste'
+    }
 
 });
 
